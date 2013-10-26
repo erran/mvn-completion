@@ -5,8 +5,8 @@ Bash completion for Maven.
 * `mvn ca<tab> # => mvn cargo:run`
 * `mvn cl<tab> # => mvn clean`
 * `mvn co<tab> # => mvn compile`
-* `mvn i<tab> # => mvn install`
 * `mvn e<tab> # => mvn exec:java`
+* `mvn i<tab> # => mvn install`
 
 Tabbing twice with either no arguments or multiple matches will return a list
 of all available commands for completion.
