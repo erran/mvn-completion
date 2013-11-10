@@ -1,6 +1,5 @@
-# vi: set ft=sh :
-
 # Maven (mvn) fish completion
+
 # Build phases:
 complete -c mvn -n '__fish_use_subcommand' -a validate --description 'validate the project is correct and all necessary information is available'
 complete -c mvn -n '__fish_use_subcommand' -a initialize --description 'initialize build state, e.g. set properties or create directories.'
