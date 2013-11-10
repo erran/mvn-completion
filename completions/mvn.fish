@@ -75,12 +75,12 @@ complete -c mvn -n '__fish_use_subcommand' -a exec:exec --description 'execute J
 
 # Options:
 # TODO: Check whether -D was specified before adding these completions?
-complete -c mvn -x -o Dexec.classpathScope -d 'Defines the scope of the classpath passed to the plugin.'
-complete -c mvn -x -o Dexec.executable -d 'The executable.'
-complete -c mvn -x -o Dexec.args -d 'Arguments for the executed program.'
-complete -c mvn -x -o Dexec.longClasspath -d 'Whether to write the classpath and main to a MANIFEST.MF file.'
-complete -c mvn -x -o Dexec.outputFile -d 'Where to redirect STDOUT/STDERR.'
-complete -c mvn -x -o Dskip -d 'Skip the execution.'
-complete -c mvn -x -o DsourceRoot -d 'This folder is added to the list of those folders containing source to be compiled.'
-complete -c mvn -x -o DtestSourceRoot -d 'This folder is added to the list of those folders containing source to be compiled for testing.'
-complete -c mvn -x -o Dexec.workingdir -d 'The current working directory.'
+# complete -c mvn -x -o Dexec.classpathScope -d 'Defines the scope of the classpath passed to the plugin.'
+# complete -c mvn -x -o Dexec.executable -d 'The executable.'
+# complete -c mvn -x -o Dexec.args -d 'Arguments for the executed program.'
+# complete -c mvn -x -o Dexec.longClasspath -d 'Whether to write the classpath and main to a MANIFEST.MF file.'
+# complete -c mvn -x -o Dexec.outputFile -d 'Where to redirect STDOUT/STDERR.'
+# complete -c mvn -x -o Dskip -d 'Skip the execution.'
+# complete -c mvn -x -o DsourceRoot -d 'This folder is added to the list of those folders containing source to be compiled.'
+# complete -c mvn -x -o DtestSourceRoot -d 'This folder is added to the list of those folders containing source to be compiled for testing.'
+# complete -c mvn -x -o Dexec.workingdir -d 'The current working directory.'
